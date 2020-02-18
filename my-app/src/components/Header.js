@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../public/css";
 
 export default class Header extends Component {
     render() {
@@ -54,17 +53,17 @@ export default class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">
-                            I'm Jonathan Doe.
+                            I'm Cesar Arroyo
                         </h1>
                         <h3>
-                            I'm a Manila based <span>graphic designer</span>,{" "}
+                            I'm a Peru based <span>FrontEnd Dev</span>,{" "}
                             <span>illustrator</span> and{" "}
                             <span>webdesigner</span> creating awesome and
                             effective visual identities for companies of all
                             sizes around the globe. Let's{" "}
                             <a className="smoothscroll" href="#about">
                                 start scrolling
-                            </a>
+                            </a>{" "}
                             and learn more{" "}
                             <a className="smoothscroll" href="#about">
                                 about me
@@ -74,27 +73,22 @@ export default class Header extends Component {
                         <hr />
                         <ul className="social">
                             <li>
-                                <a href="#">
+                                <a href="https://www.facebook.com/cesar4rroyo">
                                     <i className="fa fa-facebook" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://twitter.com/cesar4rroyo">
                                     <i className="fa fa-twitter" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i className="fa fa-google-plus" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="https://www.linkedin.com/in/c%C3%A9sar-arroyo-torres-062283192/">
                                     <i className="fa fa-linkedin" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.instagram.com/cesar4rroyo/">
                                     <i className="fa fa-instagram" />
                                 </a>
                             </li>
