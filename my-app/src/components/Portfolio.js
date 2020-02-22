@@ -14,7 +14,7 @@ export default class Portfolio extends Component {
                         >
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-01" title>
+                                    <a href="#modal-01" title="true">
                                         <img
                                             alt=""
                                             src="images/portfolio/coffee.jpg"
@@ -34,7 +34,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-02" title>
+                                    <a href="#modal-02" title="true">
                                         <img
                                             alt=""
                                             src="images/portfolio/console.jpg"
@@ -54,7 +54,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-03" title>
+                                    <a href="#modal-03" title="">
                                         <img
                                             alt=""
                                             src="images/portfolio/judah.jpg"
@@ -74,7 +74,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-04" title>
+                                    <a href="#modal-04" title="">
                                         <img
                                             alt=""
                                             src="images/portfolio/into-the-light.jpg"
@@ -94,7 +94,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-05" title>
+                                    <a href="#modal-05" title="">
                                         <img
                                             alt=""
                                             src="images/portfolio/farmerboy.jpg"
@@ -114,7 +114,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-06" title>
+                                    <a href="#modal-06" title="">
                                         <img
                                             alt=""
                                             src="images/portfolio/girl.jpg"
@@ -134,7 +134,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-07" title>
+                                    <a href="#modal-07" title="">
                                         <img
                                             alt=""
                                             src="images/portfolio/origami.jpg"
@@ -154,7 +154,7 @@ export default class Portfolio extends Component {
                             {/* item end */}
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-08" title>
+                                    <a href="#modal-08" title="">
                                         <img
                                             alt=""
                                             src="images/portfolio/retrocam.jpg"
@@ -357,7 +357,7 @@ export default class Portfolio extends Component {
                         <img
                             className="scale-with-grid"
                             src="images/portfolio/modals/m-retrocam.jpg"
-                            alt
+                            alt=""
                         />
                         <div className="description-box">
                             <h4>Retrocam</h4>

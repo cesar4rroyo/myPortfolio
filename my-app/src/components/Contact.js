@@ -12,24 +12,15 @@ export default class Contact extends Component {
                     </div>
                     <div className="ten columns">
                         <p className="lead">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit.
+                            If you are interested, you can contact me through my
+                            social networks or through this form.
                         </p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="eight columns">
                         {/* form */}
-                        <form
-                            action
-                            method="post"
-                            id="contactForm"
-                            name="contactForm"
-                        >
+                        <form method="post" id="contactForm" name="contactForm">
                             <fieldset>
                                 <div>
                                     <label htmlFor="contactName">
@@ -84,7 +75,7 @@ export default class Contact extends Component {
                                 <div>
                                     <button className="submit">Submit</button>
                                     <span id="image-loader">
-                                        <img alt src="images/loader.gif" />
+                                        <img alt="" src="images/loader.gif" />
                                     </span>
                                 </div>
                             </fieldset>

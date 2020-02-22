@@ -59,7 +59,7 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   s text-align: center;
+   text-align: center;
 }
 
 header .banner-text {
@@ -395,13 +395,13 @@ ul#nav li.current a {
 }
 
 .photoshop {
-   width: 60%;
+   width: 40%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
 
 .illustrator {
-   width: 55%;
+   width: 45%;
    -moz-animation: illustrator 2s ease;
    -webkit-animation: illustrator 2s ease;
 }
@@ -413,7 +413,7 @@ ul#nav li.current a {
 }
 
 .css {
-   width: 90%;
+   width: 75%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
@@ -425,7 +425,7 @@ ul#nav li.current a {
 }
 
 .jquery {
-   width: 50%;
+   width: 60%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
@@ -435,7 +435,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 60%;
+      width: 40%;
    }
 }
 
@@ -444,7 +444,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 55%;
+      width: 45%;
    }
 }
 
@@ -462,7 +462,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 90%;
+      width: 75%;
    }
 }
 
@@ -480,7 +480,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 50%;
+      width: 60%;
    }
 }
 
@@ -489,7 +489,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 60%;
+      width: 40%;
    }
 }
 
@@ -498,7 +498,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 55%;
+      width: 45%;
    }
 }
 
@@ -516,7 +516,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 90%;
+      width: 75%;
    }
 }
 
@@ -534,7 +534,7 @@ ul#nav li.current a {
       width: 0px;
    }
    100% {
-      width: 50%;
+      width: 60%;
    }
 }
 

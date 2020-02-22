@@ -3,19 +3,19 @@ import React, { Component } from "react";
 export default class Education extends Component {
     render() {
         return (
-            <div class="row education">
-                <div class="three columns header-col">
+            <div className="row education">
+                <div className="three columns header-col">
                     <h1>
                         <span>Education</span>
                     </h1>
                 </div>
-                <div class="nine columns main-col">
-                    <div class="row item">
-                        <div class="twelve columns">
+                <div className="nine columns main-col">
+                    <div className="row item">
+                        <div className="twelve columns">
                             <h3>Pedro Ruiz Gallo National University</h3>
-                            <p class="info">
+                            <p className="info">
                                 Systems Engineering <span>&bull;</span>{" "}
-                                <em class="date">2018-Present</em>
+                                <em className="date">2018-Present</em>
                             </p>
                             <p>
                                 I am currently in the third year of my
@@ -27,12 +27,12 @@ export default class Education extends Component {
                         </div>
                     </div>
 
-                    <div class="row item">
-                        <div class="twelve columns">
+                    <div className="row item">
+                        <div className="twelve columns">
                             <h3>Platzi</h3>
-                            <p class="info">
+                            <p className="info">
                                 Platzi Student <span>&bull;</span>{" "}
-                                <em class="date">2018-Present</em>
+                                <em className="date">2018-Present</em>
                             </p>
                             <p>
                                 Currently I am also a student of Platzi, the
