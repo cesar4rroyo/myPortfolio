@@ -16,25 +16,27 @@ export default function ModalEvents(props) {
                     >
                         Close
                     </button>
-                    <div id="title">Kotlin in Everywhere 2019</div>
+                    <div id="title">DevFest Piura 2019</div>
                     <div className="img-contenedor">
                         <img
                             className="img-modal"
-                            src="images/events/meetup.jpg"
-                            alt=""
+                            src="images/events/modals/devFest19.jpg"
+                            alt="aaaa"
                         />
                     </div>
                     <div className="descripcion_cont">
-                        <b>Kotlin / Everywhere</b> is a global series of events
-                        led by the GDG community, where everyone interested can
-                        learn about Kotlin best practices on Android, Google
-                        Cloud Platform, and cross-platform development.
+                        New Edition of <b>Devfest</b> , the event that brings
+                        together the community of developers and technology
+                        enthusiasts in the region. Held on Saturday October 12
+                        in the city of Piura
                         <br />
-                        <a href="https://twitter.com/gdgcix">Show More</a>
+                        <a href="https://twitter.com/hashtag/DevFestPiura?src=hashtag_click">
+                            Show More
+                        </a>
                     </div>
                 </div>
             </div>
         </div>,
-        document.getElementById("modal")
+        document.getElementById("modal-2")
     );
 }
