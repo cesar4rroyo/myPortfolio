@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ModalEvents from "./ModalEvents";
 import ModalEvents2 from "./ModalEvents2";
+import ModalEvents3 from "./ModalEvents3";
 import "./modal.css";
 
 export default class Eventos extends Component {
@@ -15,7 +16,7 @@ export default class Eventos extends Component {
     }
 
     TITLE_EVENT1 = "DevFest Piura 2019";
-    DES_1 = "Teach Event";
+    DES_1 = "Tech Event";
     SRC_1 = "images/events/meetup.jpg";
     SRC_2 = "images/events/modals/devFest2019.jpg";
 
@@ -30,7 +31,7 @@ export default class Eventos extends Component {
                 <div className="row">
                     <div className="twelve columns collapsed">
                         <h1>Some events, where I was present</h1>
-                        <div className="bgrid-quarters s-bgrid-thirds cf">
+                        <div className="bgrid-thirds s-bgrid-thirds cf">
                             <div className="columns events-item">
                                 <div className="item-wrap">
                                     <button
@@ -39,7 +40,11 @@ export default class Eventos extends Component {
                                         }
                                         className="btn-iten"
                                     >
-                                        <img src={this.SRC_1} alt="event-1" />
+                                        <img
+                                            className="img__event"
+                                            src={this.SRC_1}
+                                            alt="event-1"
+                                        />
                                         <div className="overlay">
                                             <div className="events-item-meta">
                                                 <h5>
@@ -69,6 +74,7 @@ export default class Eventos extends Component {
                                         className="btn-iten"
                                     >
                                         <img
+                                            className="img__event"
                                             src="images/events/modals/devFest19.jpg"
                                             alt="event-2"
                                         />
@@ -93,14 +99,19 @@ export default class Eventos extends Component {
                                 <div className="item-wrap">
                                     <button
                                         onClick={() =>
-                                            this.setState({ isOpen: true })
+                                            this.setState({ isOpen3: true })
                                         }
                                         className="btn-iten"
                                     >
-                                        <img
-                                            src="images/events/meetup.jpg"
-                                            alt="event-1"
-                                        />
+                                        <iframe
+                                            class="img__video"
+                                            width="560"
+                                            height="315"
+                                            src="https://www.youtube.com/embed/TAS1Cl2WfOc"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
                                         <div className="overlay">
                                             <div className="events-item-meta">
                                                 <h5>DevFest Piura 2019</h5>
@@ -111,39 +122,10 @@ export default class Eventos extends Component {
                                             <i className="icon-plus" />
                                         </div>
                                     </button>
-                                    <ModalEvents
-                                        show={this.state.isOpen}
-                                        onHide={this.addModalClose}
-                                    ></ModalEvents>
-                                </div>
-                            </div>
-                            {/* itens 03 */}
-                            <div className="columns events-item">
-                                <div className="item-wrap">
-                                    <button
-                                        onClick={() =>
-                                            this.setState({ isOpen: true })
-                                        }
-                                        className="btn-iten"
-                                    >
-                                        <img
-                                            src="images/events/meetup.jpg"
-                                            alt="event-1"
-                                        />
-                                        <div className="overlay">
-                                            <div className="events-item-meta">
-                                                <h5>DevFest Piura 2019</h5>
-                                                <p>Tech Event</p>
-                                            </div>
-                                        </div>
-                                        <div className="link-icon">
-                                            <i className="icon-plus" />
-                                        </div>
-                                    </button>
-                                    <ModalEvents
-                                        show={this.state.isOpen}
-                                        onHide={this.addModalClose}
-                                    ></ModalEvents>
+                                    <ModalEvents3
+                                        show={this.state.isOpen3}
+                                        onHide={this.addModalClose3}
+                                    ></ModalEvents3>
                                 </div>
                             </div>
                             {/* itens 04 */}

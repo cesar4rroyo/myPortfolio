@@ -19,7 +19,7 @@
     top: 10rem;
     background-color: #ffffff;
     padding: 1rem;
-    width: 600px;
+    max-width: 375px;
 }
 
 .Modal__header {
@@ -72,4 +72,25 @@
     margin: auto;
     padding: 1.5rem;
     background-color: aliceblue;
+}
+
+.video-contenedor {
+    padding-top: 1.5rem;
+    height: 300px;
+}
+
+.img__event img {
+    object-fit: cover;
+}
+
+iframe {
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.img__video {
+    margin: 1.5rem;
 }
